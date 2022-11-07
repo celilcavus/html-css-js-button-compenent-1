@@ -1,0 +1,68 @@
+.btn{
+  padding: 10px 10px 10px 10px;
+  border-radius: 10%;
+  border: 0px;
+  opacity: 0.7;
+}
+.btn:hover{
+  opacity: 0.9;
+  box-shadow: 1px 1px 1px 1px gray;
+  transition: all 0.3s;
+}
+.btn-dark{
+  background-color: rgb(14, 23, 23);
+  color: white;
+}
+.btn-white{
+  background-color: white;
+  color: rgb(14, 23, 23);
+}
+.btn-danger{
+  background-color: rgb(190, 26, 26);
+  color: white;
+}
+.btn-success{
+  background-color: green;
+  color: white;
+}
+/* outline-btn */
+.btn-outline-white{
+  border:1px solid rgb(14, 23, 23);
+  background-color: rgb(14, 23, 23);
+  color:  white;
+  
+}
+.btn-outline-white:hover{
+  background-color:white;
+  color:rgb(14, 23, 23);
+  
+}
+.btn-outline-dark{
+  border:1px solid rgb(14, 23, 23);
+  background-color: white;
+  color: rgb(14, 23, 23);
+}
+.btn-outline-dark:hover{
+  background-color: rgb(14, 23, 23);
+  color: white;
+}
+.btn-outline-danger{
+  border: 1px solid  rgb(190, 26, 26);
+  background-color:white;
+  color:  rgb(14, 23, 23);
+}
+.btn-outline-danger:hover{
+  background-color:rgb(190, 26, 26);
+  color: white;
+}
+.btn-outline-success{
+  border: 1px solid green;
+  background-color: white;
+  color: rgb(14, 23, 23);
+}
+.btn-outline-success:hover{
+  background-color: green;
+  color: white;
+}
+
+
